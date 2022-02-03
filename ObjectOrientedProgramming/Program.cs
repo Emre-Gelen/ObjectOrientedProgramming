@@ -6,7 +6,10 @@ namespace ObjectOrientedProgramming
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            #region Create Coffee Table Object
+            CoffeeTable cf = new CoffeeTable(10,20,30,"Brown");
+            Console.WriteLine(cf.ShowAsString());
+            #endregion
         }
     }
 }
