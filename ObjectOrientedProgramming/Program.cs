@@ -10,6 +10,13 @@ namespace ObjectOrientedProgramming
             CoffeeTable cf = new CoffeeTable(10,20,30,"Brown");
             Console.WriteLine(cf.ShowAsString());
             #endregion
+
+            #region Create AbstractChildClass
+            ChildClass cc = new ChildClass();
+            cc.exampleAbstrackMethod();
+            cc.exampleNormalMethod();
+            cc.exampleVirtualMethod();
+            #endregion
         }
     }
 }
